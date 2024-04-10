@@ -1,7 +1,7 @@
 ## Exercícios da Faculdade :) 👩‍💻
 Foi passado exercícios na faculdade da disciplia de Programação Web.
 
-##Questão 1:
+## Questão 1:
 Faça uma tela web com as seguintes características:
   - Dois campos de entrada de valores numéricos (type=”number”).
  - Um botão abaixo destes campos que, ao ser pressionado, calcule a soma dos
@@ -17,7 +17,7 @@ Faça uma tela web com as seguintes características:
        números sejam iguais. 
  
 
-##Questão 2: 
+## Questão 2: 
   Faça outra tela web com as seguintes características: 
  - Um campo de entrada tipo “text”. 
  - A cada tecla digitada dentro deste campo, um <div> ou <p> abaixo deste campo
@@ -27,7 +27,7 @@ Faça uma tela web com as seguintes características:
      mostrar a mensagem “O tamanho atual do campo é de: “, e em seguida o tamanho
       do campo digitado até o momento (atributo length).
 
-##Questão 4:
+## Questão 4:
 Faça uma terceira tela web com as seguintes características:
   - Crie uma lista (ul) com 5 itens (li) que representam as suas comidas favoritas.
      Quando um item da lista for clicado, exiba um alerta com o nome da comida.
