@@ -1,3 +1,4 @@
+## Exercícios da Faculdade :) 
 Foi passado exercícios na faculdade da disciplia de Programação Web.
 
 Exercício 1: Faça uma tela web com as seguintes características: a. Dois campos de entrada de valores numéricos (type=”number”). b. Um botão abaixo destes campos que, ao ser pressionado, calcule a soma dos dois números do item anterior, e mostre o resultado em um
