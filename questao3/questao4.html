@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 4</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main id="container">
+    <form id="form"> 
+        <h1 id="titulo">
+            Minhas comidas favoritas: 
+        </h1>
+    <div class="lista">
+        <ul id="comida">
+             <li onclick="comidaMostra(this)" class="item">Comida de Mãe</li>
+             <li onclick="comidaMostra(this)" class="item">Italia</li>
+             <li onclick="comidaMostra(this)" class="item">McDonalds</li>
+             <li onclick="comidaMostra(this)" class="item">Brasileiro</li>
+             <li onclick="comidaMostra(this)" class="item">Cinema</li>
+        </ul> 
+    </div>
+      
+    <div class="mudaCor">Passa o mouse que muda de cor :) </div>
+
+    <div>
+        <section style="margin-top: 5px; margin-bottom: 5px; overflow: auto;">
+          <table id="tabela">
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                    
+                </tr>
+                <tr>     
+                    <td onclick="mudaCor(this)">Clique aqui</td>              
+                    <td onclick="mudaCor(this)">Clique aqui</td>
+                    <td onclick="mudaCor(this)">Clique aqui</td>                   
+                </tr>
+                <tr>
+                    <td onclick="mudaCor(this)">Clique aqui</td>              
+                    <td onclick="mudaCor(this)">Clique aqui</td>
+                    <td onclick="mudaCor(this)">Clique aqui</td>                   
+                </tr>
+                <tr>
+                    <td onclick="mudaCor(this)">Clique aqui</td>              
+                    <td onclick="mudaCor(this)">Clique aqui</td>
+                    <td onclick="mudaCor(this)">Clique aqui</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    </form>
+
+
+   <script src="js/lib.js"></script> 
+</main>
+</body>
+</html>

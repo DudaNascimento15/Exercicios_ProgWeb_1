@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2</title>
+    <link rel="stylesheet" href="css/style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main id="container">
+        <section id="questao2"> 
+            <form id="form"> 
+                <h1 id="titulo">
+                     Questão 2 
+                </h1>
+    
+                <div class="input-box">
+                   <label for="frase"> 
+                      Digite algo: 
+                    </label>
+                    <div class="field-frase">
+                      <input type="text" id="frase" name="frase" oninput="copiaDigitado(this.value)" required> 
+                    </div>   
+
+                    <button type="button" id="bttamanho" onclick="tamanho()">
+                        Tamanho
+                   </button>   
+                    
+                    <label for="frase"> </label>
+                </div>    
+                  
+                <div id="copia" ></div>                         
+        
+            </form>  
+           
+                 <div id="tamanho">  </div> 
+
+        </section>  
+    </main>  
+    <script src="js/lib.js"></script>
+</body>
+</html>

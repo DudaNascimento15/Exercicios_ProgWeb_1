@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Soma e Comparação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main id="container">
+      <section id="img">
+         <img src="midia/undraw_Calculator_re_alsc.png">
+      </section>
+    
+    <section id="somas"> 
+        <form id="form"> 
+            <h1 id="titulo">
+                 Soma e Comparação
+            </h1>
+
+            <div class="input-box">
+               <label for="num1"> 
+                  Primeiro número
+                </label>
+                <div class="field-num">
+                  <input type="number" id="num1" name="num1" required> 
+                </div>                
+            </div>
+
+            <div class="input-box">
+                <label for="num2"> 
+                  Segundo número
+                 </label>
+                 <div class="field-num">
+                   <input type="number" id="num2" name="num2" required> 
+                 </div>                
+             </div>
+
+             <button type="button" id="somabt" onclick="somaResultado()">
+                  Soma
+             </button>              
+
+  
+
+
+        </form>
+
+        <div id="infos">
+            <div id="resultado">                
+                <div id="somaresult" > </div>        
+            </div>
+        </div>
+       
+        <div>
+        <button id="comparabt" type="button"  onclick="comparaNumeros()">
+            Comparação
+        </button> 
+    </div>
+
+    <div id="mensagem"> 
+    </div>
+        
+    </div> 
+        
+        
+    </section>  
+ </main>
+ <script src="js/lib.js"></script>
+</body>
+</html>
